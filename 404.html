@@ -1,1 +1,75 @@
-﻿
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="utf-8">
+    <title>404 - 找不到頁面 | 香郎津桃</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="img/logo-symbol-pink.png" rel="icon" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        html, body {
+            height: 100%;
+            background: #0d0d0d;
+            color: #fff;
+        }
+        .not-found-wrap {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+        }
+        .not-found-code {
+            font-size: clamp(5rem, 20vw, 10rem);
+            font-weight: 700;
+            line-height: 1;
+            color: transparent;
+            -webkit-text-stroke: 2px #E41779;
+            letter-spacing: 0.05em;
+            margin-bottom: 1rem;
+        }
+        .not-found-title {
+            font-size: clamp(1.2rem, 3vw, 1.8rem);
+            font-weight: 600;
+            color: rgba(255,255,255,0.9);
+            margin-bottom: 0.75rem;
+        }
+        .not-found-sub {
+            font-size: 1rem;
+            color: rgba(255,255,255,0.45);
+            margin-bottom: 2.5rem;
+        }
+        .not-found-divider {
+            width: 48px;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #E41779, transparent);
+            margin: 0 auto 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="not-found-wrap">
+        <a href="index.html" class="mb-5">
+            <img src="img/logo-text-transparent.png" alt="香郎津桃" style="max-height: 48px; width: auto;">
+        </a>
+        <div class="not-found-code">404</div>
+        <div class="not-found-divider"></div>
+        <p class="not-found-title">找不到這個頁面</p>
+        <p class="not-found-sub">你來錯地方了，或者這個頁面已經不存在。</p>
+        <div class="d-flex flex-wrap gap-3 justify-content-center">
+            <a href="index.html" class="btn btn-primary px-5 py-3">回首頁</a>
+            <a href="contact.html" class="btn btn-outline-primary border-2 px-5 py-3">聯絡我們</a>
+        </div>
+    </div>
+</body>
+
+</html>
