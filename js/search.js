@@ -5,14 +5,9 @@
     const searchablePages = [
         { url: 'index.html', title: '首頁' },
         { url: 'about.html', title: '關於我們' },
-        { url: 'service.html', title: '服務' },
-        { url: 'contact.html', title: '聯絡我們' },
-        { url: 'team.html', title: '我們的模特' },
-        { url: 'testimonial.html', title: '客戶評價' },
-        { url: 'ktv.html', title: 'KTV 選擇' },
-        { url: 'hotel.html', title: '飯店選擇' },
-        { url: 'restaurant.html', title: '餐廳推薦' },
-        { url: 'guide.html', title: '新手指南' }
+        { url: 'service.html', title: '香郎津桃包套服務' },
+        { url: 'free-travel.html', title: '自由行' },
+        { url: 'contact.html', title: '聯絡我們' }
     ];
 
     // 儲存所有頁面的內容
